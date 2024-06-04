@@ -7,6 +7,7 @@ function fibonacci(num) {
 		n = f+s;
 		f=s;
 		s=n;
+		c = c+1;
 	}
 	return n;
 }
